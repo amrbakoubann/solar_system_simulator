@@ -179,7 +179,7 @@ fn setup_scene(
         PbrBundle {
             mesh: meshes.add(Sphere::new(1.0)),
             material: materials.add(StandardMaterial {
-                base_color: Color::srgb(0.2, 0.4, 0.8),
+                base_color: Color::rgb(0.2, 0.4, 0.8),
                 ..default()
             }),
             transform: Transform::from_xyz(20.0, 0.0, 0.0),
@@ -196,7 +196,7 @@ fn setup_scene(
         PbrBundle {
             mesh: meshes.add(Sphere::new(0.9)),
             material: materials.add(StandardMaterial {
-                base_color: Color::srgb(0.8, 0.3, 0.1),
+                base_color: Color::rgb(0.8, 0.3, 0.1),
                 ..default()
             }),
             transform: Transform::from_xyz(30.0, 0.0, 0.0),
