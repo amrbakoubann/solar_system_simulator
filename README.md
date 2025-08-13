@@ -2,6 +2,8 @@
 
 A 3D solar system built with Rust and Bevy. The planets actually orbit using gravity physics.
 
+Note: Still working on this. The basic orbital mechanics are functional but I'm still tweaking the physics to make the orbits more stable and realistic. Some planets might still drift or act weird occasionally.
+
 ## What it does
 
 - Sun in the center with three planets orbiting around it
