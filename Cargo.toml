@@ -1,0 +1,18 @@
+[package]
+name = "solar_system_simulator"
+version = "0.1.0"
+edition = "2021"
+
+# This section lists all the external libraries our project needs.
+[dependencies]
+bevy = "0.13" # Or the latest version of Bevy
+
+# This is an optional but highly recommended section for Bevy development.
+[profile.dev]
+opt-level = 1
+
+# This tells Rust to compile our dependencies (like Bevy) with high optimization,
+# but keep our own code simple, which makes our compile times much faster.
+[profile.dev.package."*"]
+opt-level = 3
+
